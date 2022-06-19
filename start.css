@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --red:#E50914;
+    --black:#000000;
+    --light-color:#181818;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    font-size: 62.5%;
+    overflow: hidden;
+    scroll-padding-top:5.5rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    height: 700px;
+}
+a:link {
+    text-decoration: none;
+    color: none!important;
+    cursor: pointer;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    background-color: black;
+    
+    padding: 1rem 7%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+    box-shadow: var(--box-shadow);
+    height: 50px;
+    box-shadow: 0px 20px 30px rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.back {
+    height: 0px;
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+}
+.logo{
+    color: white;
+    margin: 60px;
+    font-size: 5.5rem;
+    font-weight: bolder;
+    position: relative;
+    z-index: 20009238094300;
+    transform: translateY(0px);
+    margin-top: 200px;
+    
+}
+.logo i{
+    color: red;
+    font-size: 40px;
+   
+
+}
+ a p i {
+    font-size: 60px;
+    margin-left: 20px;
+ }
+.a {
+    display: flex;
+    color: rgb(173, 42, 42);
+    font-size: 30px;
+    transform: translateX(10px);
+    position: relative;
+    z-index: 10000;
+    
+    border: 3px solid blue;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 1px orangered;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none!important;
+
+}
+.a:hover {
+    background-color: blue;
+    
+}
+.div2 {
+    background-image: url(/photos/back2.jpg);
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(10%);
+    transform: translateY(-400px);
+    
+}
+
+header .navbar a {
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: white;
+    text-shadow: 0px 0px 5px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+ a img {
+    margin-top: -1000px;
+    width: 300px;
+    position: relative;
+    z-index: 100000000000;
+    transform: translate(400px, 300px);
+}
+.n {
+
+ 
+ transform: translate(150px, 700px);
+}
+.m {
+    width: 450px;
+    transform: translate(300px, 500px);
+}
+.i {
+    width: 350px;
+    transform: translate(400px, 300px);
+}
+header .navbar .login {
+    color: cyan;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+
+}
+body {
+
+    font-family:sans-serif ;
+}
+.navbar {
+    justify-content: space-around;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 700px;
+    position: relative;
+    z-index: 1;
+    
+}
+@media(max-width: 1350px) {
+.navbar {
+    margin-left: 300px;
+}
+a:link {
+        text-decoration: none;
+        color: none!important;
+        cursor: none;
+    
+    }
+}
+@media(max-width: 900px) {
+    
+    .navbar {
+        margin-left: 100px;
+    }
+    }
+    @media(max-width: 650px) {
+        .navbar {
+            margin-left: 0px;
+        }
+        }
+        @media(max-width: 550px) {
+            .navbar {
+                margin-left: -60px;
+            }
+            }
+            @media(max-width: 480px) {
+                .navbar {
+                    margin-left: -20px;
+                }
+                header .navbar a {
+                    margin-left: 0px;
+                }
+                }
+header .navbar a:hover {
+    color: #E50914;
+    text-shadow: 0px 0px 5px red;
+}
+header .navbar .login:hover {
+    background-color: blue;
+    text-shadow: 0px 0px 5px white;
+    color: white;
+
+}
